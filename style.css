@@ -1,24 +1,34 @@
- 
-  
+
 body{
     margin: 0px;
     background-color: #212529;
 }
 h1{
-    color: white;
+    color: rgb(148, 39, 39);
 }
 .itemBox{
     display: flex;
     align-items: center;
     width: auto;
-    height: 100px;
-    margin: 10px 10px;
+    max-width: 90%;
+    min-height: max-content;
+    margin: 20px 10px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgb(225, 211, 193);
 }
+.mentorDetails{
+    margin: 10px;
+}
+.mentorClass{
+    margin: 20px;
+}
 .itemBox:hover{
     
+}
+.form-Area{
+    width: 100%;
+    height: 100%;
 }
 #coursesArea, #mentorsArea{
     padding: 10px 10px;
